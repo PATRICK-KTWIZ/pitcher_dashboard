@@ -1,4 +1,4 @@
-app = "kt-pitcher-report"
+app = "pitcher-dashboard"
 primary_region = "nrt"
 
 [build]
