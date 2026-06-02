@@ -1,0 +1,19 @@
+app = "kt-pitcher-report"
+primary_region = "nrt"
+
+[build]
+
+[env]
+  PORT = "8050"
+
+[http_service]
+  internal_port = 8050
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1
